@@ -1,0 +1,10 @@
+body{ 
+    text-align: center;
+    background-color: blue;
+}
+
+#signup{ 
+    display: flex; 
+    flex-direction: column;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles2.css">
+    <!-- <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="validation.js" defer></script> -->
+    
+</head>
+<body>
+   
+   <h1 class="header">Sign Up Page</h1> 
+   <div id="signup">
+    <form action="signup.php" method="post" novalidate id="signup">
+        <div>
+        <label for="name">Name<br> <input type="text" name = "name" id="name"><br></label><br>
+    </div>
+        <div>
+        <label for="email">Email ID<br> <input type="email" name = "email" id="email"><br></label><br>
+    </div>
+    
+    <div>
+        <label for="password">Password<br> <input type="password" name = "password_1" id="password_1" ><br></label><br>
+    </div>
+    <div>
+        <label for="confirm_pass">Confirm Password<br> <input type="password" name = "password_2" id="password_2"><br></label><br>
+    </div>
+        <label for="submit"><button type = "submit">Sign Up</button></label><br>
+        
+    </form>
+
+    <!-- <label for="login"><button class="login">Login</button></label> -->
+</div>
+<p class="login">Already Signed Up? Click here to <a href = "loging.php">Login</a></p>
+
+   
+    
+</body>
+</html>
